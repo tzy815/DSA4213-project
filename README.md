@@ -28,10 +28,6 @@ Given a Steam review, predict whether the review is **positive (recommended)** o
 - Classical **LSTM + Attention** beats the rule-based baseline but is clearly behind transformers.
 - **VADER** struggles with slang, sarcasm, and gaming-specific language.
 
-:contentReference[oaicite:0]{index=0}
-
----
-
 ## 2. Repository Structure
 
 A typical layout for this project:
