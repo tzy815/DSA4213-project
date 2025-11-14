@@ -36,10 +36,25 @@ A typical layout for this project:
 DSA4213-project/
 ├── project.ipynb
 ├── DSA4213 Final Project Report.docx
-├── data/
+├── datasets/
 │   └── steam_reviews.csv      # (Not included) Balanced 50k Steam review dataset
 ├── model/
 │   └──attention_length.keras
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+
+## 3. How to Run This Project
+
+Follow these steps to reproduce all experiments, plots, and results in the notebook.
+
+- Clone the Repository
+- Download the Steam Reviews dataset from Kaggle: https://www.kaggle.com/datasets/andrewmvd/steam-reviews
+- Extract the file
+- Rename the main CSV file to:
+steam_dataset.csv
+- Move it into:
+datasets/steam_dataset.csv
+- Run the Notebook
+project.ipynb
